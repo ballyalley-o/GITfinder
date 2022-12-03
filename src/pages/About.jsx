@@ -28,7 +28,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="bg container w-full min-h-screen h-100 top-10 absolute z-1">
+      <div className="bg container w-full top-10 absolute z-1">
         <img src={astroHelm} />
       </div>
     </>
