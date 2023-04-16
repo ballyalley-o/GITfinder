@@ -8,8 +8,8 @@ function About() {
   return (
     <>
       <div>
-        <div className="hero min-h-screen z-50">
-          <div className="hero-content absolute content-center flex-col lg:flex-row z-20">
+        <div className="hero top-10 z-40 alert-successz-40 min-h-screen relative">
+          <div className="hero-content content-center flex-col lg:flex-row">
             <div>
               <h1 className="text-8xl font-bold">
                 <SiGithubactions />
@@ -28,8 +28,14 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="bg container w-full top-10 absolute z-1">
-        <img src={astroHelm} />
+      <div className="container h-64 w-64">
+        <div className="bg-cover container w-full opacity-90 z-0 top-1 absolute">
+          <img
+            src={astroHelm}
+            alt="astronaut helmet"
+            // crop the image to fit the container
+          />
+        </div>
       </div>
     </>
   );
